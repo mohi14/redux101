@@ -3,7 +3,6 @@ import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
     value: 0,
-    
   }
 
 
@@ -13,7 +12,7 @@ const initialState = {
     reducers:{
         increment:(state)=>{
             state.value = state.value +1
-            state.mohi = state.mohi+5
+           
         },
         decrement:(state)=>{
             if (state.value>0)
